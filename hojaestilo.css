@@ -1,0 +1,85 @@
+/* selector universal */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* Selector de tipo */
+h2{
+    color: blueviolet;
+}
+/* selector de clase */
+.clase1{
+    color: brown;
+}
+/* selector de id */
+#id1{
+    color: darkblue;
+}
+/* selector por atributo */
+[atribtocualquierora="algo"]{
+    color: darkgoldenrod;
+}
+/* selector descendiente */
+[atribtocualquierora="algo"] strong{
+    color: red;
+}
+/* selector conpseudoclases */
+p:hover{
+    color: yellow;
+}
+#id1:hover{
+    color: tomato;
+}
+
+/* METODOLOGÍA BEM */
+.contact-form{
+    background-color: lightcoral;
+}
+
+.contact-form__input{
+    color: rebeccapurple;
+}
+
+.contact-form__input-active:hover{
+    color: saddlebrown
+    ;
+}
+
+/* Medidas relativas */
+/* .unidades-css{
+    font-size: 25px;
+}
+
+.unidades-css__h2{
+    font-size: 2em;
+    color: saddlebrown;
+} */
+/*ocupa el porcentaje de lapantalla vw y vh*/
+/* .contact-css{
+    font-size: 25px;
+    background-color: black;
+    width: 50vw; 
+    height: 60vh;
+} */
+/*medida que multiplica al valor definido em*/
+ /* .contact-css__h2{
+    font-size: 2em; 
+    color:white;
+}  */
+
+/* PROPIEDADES DE TEXTO */
+
+.contact-css{
+    font-size: 25px;
+}
+
+.contact-css__h2{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2; /*Tamaño que ocupa la letra*/
+    /* font-weight: 1000; */
+    /* font-stretch: normal;
+    font-variant: small-caps; */
+    color: blue;
+}
+
