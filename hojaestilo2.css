@@ -1,6 +1,7 @@
 *{
     font-family: 'Miriam Libre', sans-serif;
     font-weight: 100;
+    /* background-color: black; */
 }
 
 .contact-form{
@@ -15,6 +16,103 @@
     padding: 50px;
     box-sizing: border-box;
     text-align: center;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 100px 20px;
+    border-radius:10px;
+    /* border:5px solid lightcoral; */
+    box-shadow: 5px 4px 10px 0 black;
+    text-shadow: 2px 2px 7px black, 2px 2px 7px black;
+    transform: rotate(350deg);
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background: #8a2be2;
+    margin: auto;
+    /* border: 5px solid black; */
+    outline: 5px solid black;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+}
+
+p{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellow;
+}
+
+.caja5{
+    background-color: coral;
+    
+}               
+
+.caja6{
+    background-color: cyan;
+    position: relative;
+    top:20px;
+}              
+
+.caja7{
+    background-color: blue; 
+}           
+   
+.caja8{
+    background-color: yellow;
+}              
+
+.contenedor{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    margin: 40px;
+    position: relative;
+}
+
+/* Unica forma de sobreponer el padre al hijo
+es necesario definir la posición en z para uno solo de 
+los elementos, en este caso es el hijo */
+.hijo{
+    background: chartreuse;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index:-1;
+}
+
+/* POSISICIÓN ABSOLUTA */
+.contenedor2{
+    width: 160px;
+    height: 160px;
+    display: block;
+    background: yellow;
+}
+
+.hijo21{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+}
+
+.hijo22{
+    background-color: green;
+    position: absolute;
+    opacity: 0.5;
+    margin-left: 300px;
+    width: 100px;
+    height: 200px;
+    left:20px;
+}
+
+.hijo23{
+    background-color: lightblue;
+    width: 100px;
+    height: 200px;
 }
