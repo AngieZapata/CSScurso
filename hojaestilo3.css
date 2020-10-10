@@ -1,0 +1,11 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.caja-fixed{
+    background: red;
+    position: sticky;
+    opacity: 0.3;
+
+}
