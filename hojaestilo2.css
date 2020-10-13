@@ -18,3 +18,32 @@
     margin: 10px;
     border-radius: 10px;
 }
+
+.flex-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    justify-content: space-evenly;
+    height: 100vh;
+    /* align-content: flex-start; */
+}
+
+.flex-container__item{
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    height: 90px;
+    min-width: 120px;
+    flex-grow: 1;
+
+}
+
+.cred{
+    background-color: red;
+}
+
+.final{
+    background-color: blue;
+    /* align-self: flex-end; */
+}
